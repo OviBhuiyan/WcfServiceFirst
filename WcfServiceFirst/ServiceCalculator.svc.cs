@@ -23,10 +23,7 @@ namespace WcfServiceFirst
             return number1 / number2;
         }
 
-        public void DoWork()
-        {
-
-        }
+      
 
         public double MultiplyNumbers(double number1, double number2)
         {

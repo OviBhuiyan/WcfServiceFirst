@@ -11,8 +11,7 @@ namespace WcfServiceFirst
     [ServiceContract]
     public interface IServiceCalculator
     {
-        [OperationContract]
-        void DoWork();
+    
 
         [OperationContract]
         double AddNumbers(double number1, double number2);
